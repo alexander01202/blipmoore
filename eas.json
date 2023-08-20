@@ -1,0 +1,60 @@
+{
+  "cli": {
+    "version": ">= 0.54.1"
+  },
+  "build": {
+    "development": {
+      "env":{
+        "ANDROID_SDK_ROOT": "C:/Users/user/AppData/Local/Android/Sdk",
+        "STREAM_CHAT_API": "449vt742ex2f",
+        "VERIFY_NIN_TEST_SECRET_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEyMTk1NywiZW52IjoidGVzdCIsImlhdCI6MTY1MTEyNzg0N30.v0Mk6Cm1OmrutJ868AjOorv9o90lMq_Bipv89hnlVrA",
+        "VERIFY_NIN_LIVE_SECRET_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEyMTk1NywiZW52IjoibGl2ZSIsImlhdCI6MTY1MTEyNzg0N30.ERfWQCdPU3GotGnCFNwK_AGP6H__yeVhU7zXWQ3ixYU",
+        "URL":"http://192.168.100.12:19002",
+        "COMET_AUTH_KEY":"020dd9414a647c9668b4863d80bbb2c2a2a92022",
+        "GOOGLE_MAPS_APIKEY":"AIzaSyBKn8zimFXtfBhd7iXAD8_fmpmfv8mqCT0",
+        "EAS_NO_VCS":"1"
+      },
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "image": "ubuntu-18.04-jdk-11-ndk-r19c"
+      },
+      "ios":{
+        "image":"macos-monterey-12.4-xcode-13.4"
+      }
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "env":{
+        "ANDROID_SDK_ROOT": "C:/Users/user/AppData/Local/Android/Sdk",
+        "VERIFY_NIN_LIVE_SECRET_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEyMTk1NywiZW52IjoibGl2ZSIsImlhdCI6MTY1MTEyNzg0N30.ERfWQCdPU3GotGnCFNwK_AGP6H__yeVhU7zXWQ3ixYU",
+        "STREAM_CHAT_API": "449vt742ex2f",
+        "URL":"https://backend.blipmoore.com",
+        "COMET_AUTH_KEY":"020dd9414a647c9668b4863d80bbb2c2a2a92022",
+        "GOOGLE_MAPS_APIKEY":"AIzaSyBKn8zimFXtfBhd7iXAD8_fmpmfv8mqCT0",
+        "EAS_NO_VCS":"1"
+      },
+      "android": {
+        "image": "ubuntu-18.04-jdk-11-ndk-r19c"
+      },
+      "ios":{
+        "image":"macos-monterey-12.4-xcode-13.4"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android":{
+        "releaseStatus":"draft",
+        "serviceAccountKeyPath":"../pc-api-7762343864332200876-466-38883a4ee75b.json"  
+      },
+      "ios":{
+        "appleId":"alexobidiegwu@gmail.com",
+        "ascAppId":"6447441380",
+        "appleTeamId":"C726N5X9DC"
+      }
+    }
+  }
+}
