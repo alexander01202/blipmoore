@@ -1,0 +1,2 @@
+# blipmoore
+Customer cleaning app
