@@ -1,2 +1,2 @@
-# blipmoore
-home-subscription service (customer side app)
+# cleaning-app
+home-subscription service app (customer side)
